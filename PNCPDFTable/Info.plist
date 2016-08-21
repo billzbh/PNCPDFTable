@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.gxnxydyx.03</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>OP</key>
+	<string>{&quot;applicant_Nation&quot;:&quot;中国&quot;,&quot;GUI_SHENG_Citizen_Card&quot;:&quot;&quot;,&quot;VIP_USER_Platina_Card&quot;:&quot;&quot;,&quot;other_Key&quot;:&quot;&quot;,&quot;tel_Phone_Agreed_Account_Card_Number3&quot;:&quot;&quot;,&quot;Alipay_Single_Limit&quot;:&quot;&quot;,&quot;applicant_Contact_Address&quot;:&quot;安徽省蒙城县篱笆镇凡寨村侯楼庄１２-１号&quot;,&quot;openMoney&quot;:&quot;  0元&quot;,&quot;delegate_phoneNum&quot;:&quot;&quot;,&quot;applicant_Tel_Phone_Number&quot;:&quot;&quot;,&quot;delegate_Certification_authority&quot;:&quot;&quot;,&quot;UnionPay_Online_Pay_Sign_Phone_Number&quot;:&quot;&quot;,&quot;tel_Phone_Agreed_Account1&quot;:&quot;&quot;,&quot;Single_Payment_Limit&quot;:&quot;&quot;,&quot;electronic_Cash_Open&quot;:&quot;1&quot;,&quot;applicant_Validity_Of_Card&quot;:&quot;2008.06.06-2018.06.06&quot;,&quot;POS_Transaction_Limits&quot;:&quot;&quot;,&quot;mobile_Phone_Bank&quot;:&quot;1&quot;,&quot;delegate_Card_Type&quot;:&quot;&quot;,&quot;Reconciliation_Of_Fold&quot;:&quot;&quot;,&quot;message_TONG&quot;:&quot;&quot;,&quot;press_U_Key&quot;:&quot;1&quot;,&quot;applicant_Name&quot;:&quot;侯森魁&quot;,&quot;online_Bank&quot;:&quot;1&quot;,&quot;delegate_name&quot;:&quot;&quot;,&quot;tel_Phone_Agreed_Account2&quot;:&quot;&quot;,&quot;mobile_Phone_Bank_Sign_Phone_Number&quot;:&quot;17034567829&quot;,&quot;Alipay_Card_Server_Alipay_Account&quot;:&quot;&quot;,&quot;UnionPay_Online_Pay&quot;:&quot;&quot;,&quot;applicant_Certification_Authority&quot;:&quot;蒙城县公安局         &quot;,&quot;VIP_USER_GOLD_Card&quot;:&quot;&quot;,&quot;net_Bank_Day_Cumulative&quot;:&quot;200万&quot;,&quot;applicant_EMail_Address&quot;:&quot;&quot;,&quot;self_Service_Equipment_Transfer&quot;:&quot;1&quot;,&quot;self_Service_Equipment_Transfer_Day_Limit&quot;:&quot;50000&quot;,&quot;Electronic_Cipher_Device&quot;:&quot;&quot;,&quot;UnionPay_Online_Pay_Single_Limit&quot;:&quot;&quot;,&quot;applicant_Card_Number&quot;:&quot;341224199005060996&quot;,&quot;applicant_EngLish_Name&quot;:&quot;u&quot;,&quot;tel_Phone_Agreed_Account3&quot;:&quot;&quot;,&quot;applicant_Card_Type&quot;:&quot;身份证&quot;,&quot;applicant_Job&quot;:&quot;农民&quot;,&quot;delegate_Card_Validity_Date&quot;:&quot;&quot;,&quot;GUI_SHENG_Chip_Card&quot;:&quot;&quot;,&quot;mobile_Phone_Bank_Single_Payment_Limit&quot;:&quot;5万&quot;,&quot;mobile_BanK_Day_Limit&quot;:&quot;5万&quot;,&quot;POS_Transaction_Time_Limit&quot;:&quot;&quot;,&quot;net_Bank_Single_Transaction&quot;:&quot;100万&quot;,&quot;tel_Phone_Agreed_Account_Card_Number1&quot;:&quot;&quot;,&quot;bank_Name1&quot;:&quot;&quot;,&quot;delegate_address&quot;:&quot;&quot;,&quot;delegate_Card_number&quot;:&quot;&quot;,&quot;VIP_USER_Diamonds_Card&quot;:&quot;&quot;,&quot;applicant_Birthday&quot;:&quot;19900506&quot;,&quot;bank_Name2&quot;:&quot;&quot;,&quot;Ordinary_Users_Other_Name&quot;:&quot;桂盛南宁市民卡&quot;,&quot;Day_Limit_Tel_Bank&quot;:&quot;&quot;,&quot;GUA_GUA_Card&quot;:&quot;&quot;,&quot;message_TONG_Phone_Num&quot;:&quot;&quot;,&quot;electronic_Cash&quot;:&quot;1&quot;,&quot;POS_Transaction_Single_Limit&quot;:&quot;&quot;,&quot;bank_Name3&quot;:&quot;&quot;,&quot;tel_Phone_Bank&quot;:&quot;&quot;,&quot;GUI_SHENG_Union_Card&quot;:&quot;&quot;,&quot;passbook&quot;:&quot;&quot;,&quot;Ordinary_Users_Other&quot;:&quot;8&quot;,&quot;delegate_Reason&quot;:&quot;&quot;,&quot;tel_Phone_Agreed_Account_Card_Number2&quot;:&quot;&quot;,&quot;delegate_Relationship&quot;:&quot;&quot;,&quot;applicant_Sex&quot;:&quot;男&quot;,&quot;led_U_key&quot;:&quot;&quot;,&quot;Alipay_Card_Server_Alipay_Account_YES_OR_NO&quot;:&quot;&quot;,&quot;Alipay_Day_Limit&quot;:&quot;&quot;,&quot;GUI_SHENG_Composite_Card&quot;:&quot;&quot;,&quot;GUI_SHENG_XIN_XIANG_Card&quot;:&quot;&quot;,&quot;self_Service_Equipment_Transfer_Domestic_open&quot;:&quot;1&quot;,&quot;UnionPay_Online_Pay_Day_Limit&quot;:&quot;&quot;,&quot;applicant_Mobile_Phone_Number&quot;:&quot;18111111111&quot;,&quot;Alipay_Card_Server_Sign_Phone_Number&quot;:&quot;&quot;,&quot;POS_Transaction_Day_Limit&quot;:&quot;&quot;,&quot;applicant_Postcode&quot;:&quot;530000&quot;}</string>
+	<key>PR</key>
+	<string>{&quot;Account_No&quot;:&quot;123456789123&quot;,&quot;is_netbank&quot;:&quot;&quot;,&quot;Server_Level&quot;:&quot;普通客户&quot;,&quot;card_Number&quot;:&quot;6231330680000025804&quot;,&quot;is_mobilebank&quot;:&quot;&quot;,&quot;op_Teller&quot;:&quot;987789&quot;,&quot;seq_Num&quot;:&quot;0123456&quot;,&quot;c_Name&quot;:&quot;侯森魁&quot;,&quot;is_dh&quot;:&quot;&quot;,&quot;cust_Id_Num&quot;:&quot;10208114596&quot;,&quot;is_dxt&quot;:&quot;&quot;,&quot;auto_Teller&quot;:&quot;&quot;}</string>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+	</array>
+</dict>
+</plist>
