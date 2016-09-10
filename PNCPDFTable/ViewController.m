@@ -29,7 +29,7 @@
     
     NSDictionary *dict = [NSDictionary dictionaryWithContentsOfFile:path];
     
-    NSString *openCardJSON = [dict  objectForKey:@"OP"];
+    NSString *openCardJSON = [dict  objectForKey:@"EC"];
     
     NSString *PR = [dict  objectForKey:@"PR"];
 
@@ -50,8 +50,8 @@
     
     UIGraphicsBeginPDFPageWithInfo(CGRectMake(0, 0, 1240, 1754), nil);
 
-    [PDFRenderer openBankCard:[self JSONObject:openCardJSON] last:[self JSONObject:PR ]];
-    
+//    [PDFRenderer openBankCard:[self JSONObject:openCardJSON] last:[self JSONObject:PR ]];
+    [PDFRenderer Application_form_for_personal_customer_service_of_electronic_bank:[self JSONObject:openCardJSON]];
     
     
     UIGraphicsEndPDFContext();

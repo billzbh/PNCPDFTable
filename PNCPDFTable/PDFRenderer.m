@@ -252,6 +252,7 @@
  
  */
 #if 0
+
 +(void)certificateDestroy:(NSDictionary *)tableDict{
     
     
@@ -1474,7 +1475,7 @@
     [PDFRenderer printStr:@"银行签章:" CGRect:CGRectMake(285+5, 600, 200, 100) Font:9.0 lineBreakMode:NSLineBreakByWordWrapping alignment:NSTextAlignmentLeft];
 
 }
-
+#endif
 
 #pragma mark---打印短信通 电话银行签约 解约
 + (void)printWordsMessageAndPhoneBank:(NSDictionary *)dictData{
@@ -1546,13 +1547,13 @@
     [PDFRenderer printStr:bussiCardId  CGRect:CGRectMake(80+250, Y+270, 600, Vertical_Line_Distance_60) Font:FONT22 lineBreakMode:NSLineBreakByWordWrapping alignment:NSTextAlignmentCenter];
     
     //申请人签名
-    UIImage *imageautograph  =[PCMobileBankGlobal sharedInstance].writeImage;
+    UIImage *imageautograph  =[UIImage imageNamed:@"cutPicSelect"];
     
     [imageautograph drawInRect:CGRectMake(300, HEIGHT-245, 120, 36)];
     
     
     //申请日期
-    NSString *writeDate  =[PCMobileBankGlobal sharedInstance].writeDate;
+    NSString *writeDate  =@"2016年8月24";
 
     [PDFRenderer printStr:writeDate CGRect:CGRectMake(WIDTH-450, HEIGHT-240, 300, 30) Font:FONT22 lineBreakMode:NSLineBreakByWordWrapping alignment:NSTextAlignmentCenter];
     
@@ -1612,6 +1613,16 @@
         
         
     }
+    
+    //按键Key
+    else if([onlineBankType isEqualToString:@"5"])
+    {
+        
+        [imageSelect  drawInRect:CGRectMake(220+80+360,  115+7*40+60+7+16, 20, 20)];
+        
+        
+    }
+
     
     //网上银行支付限额onlineBankPaySingle
     
@@ -1719,7 +1730,6 @@
     //ePlayCustom
 
 }
-#endif
 
 /**
  * 思路: 1.布局大区
@@ -2905,7 +2915,6 @@
 
     
 }
-#if 0
 #pragma mark---
 // 短信通 签解约  手机银行 签解约   电子渠道
 + (void)Application_form_for_personal_customer_service_of_electronic_bank:(NSDictionary *)tableDict
@@ -3510,7 +3519,6 @@
     //Close the PDF context and write the contents out.
 //    UIGraphicsEndPDFContext();
 }
-#endif
 + (void)editPDF:(NSString*)filePath templateFilePath:(NSString*) templatePath
 {
     // Create the PDF context using the default page size of 612 x 792.
